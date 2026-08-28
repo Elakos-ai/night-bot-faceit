@@ -9,7 +9,7 @@
 ```powershell
 npm install
 $env:FACEIT_API_KEY="ваш_ключ_FACEIT"
-$env:FACEIT_NICKNAME="lyalek" # необязательно
+$env:FACEIT_NICKNAME="Lyalek" # необязательно
 npm start
 ```
 

@@ -5,7 +5,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 const FACEIT_API_KEY = process.env.FACEIT_API_KEY;
-const FACEIT_NICKNAME = process.env.FACEIT_NICKNAME || "lyalek";
+const FACEIT_NICKNAME = process.env.FACEIT_NICKNAME || "Lyalek";
 const GAME = process.env.FACEIT_GAME || "cs2";
 const HISTORY_LIMIT = 3;
 const REQUEST_TIMEOUT_MS = 4_000;
