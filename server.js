@@ -1,4 +1,4 @@
-```javascript
+
 const express = require("express");
 
 const app = express();
@@ -19,7 +19,7 @@ async function faceitRequest(url) {
     const response = await fetch(url, {
         method: "GET",
         headers: {
-            "Authorization": `Bearer ${FACEIT_API_KEY}`,
+"Authorization": `Bearer ${FACEIT_API_KEY}`,
             "Accept": "application/json"
         }
     });
