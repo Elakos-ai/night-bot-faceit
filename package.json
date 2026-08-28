@@ -1,0 +1,14 @@
+
+{
+  "name": "faceit-nightbot",
+  "version": "1.0.0",
+  "description": "FACEIT room command for Nightbot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
+
